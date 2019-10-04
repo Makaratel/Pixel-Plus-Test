@@ -1,0 +1,180 @@
+.content__wrapper .container {
+  padding-top: 10px;
+  margin-bottom: 200px;
+}
+
+.breadcrumbs {
+  margin-bottom: 25px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  font-size: 14px;
+}
+
+.breadcrumbs__item {
+  position: relative;
+  margin-right: 25px;
+}
+
+.breadcrumbs__item a {
+  text-decoration: underline;
+}
+
+.breadcrumbs__item a:after {
+  position: absolute;
+  content: "/";
+  width: 5px;
+  height: 5px;
+  top: 0;
+  right: -13px;
+}
+
+.catalog__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 22%;
+  margin-right: auto;
+}
+
+.nav-catalog {
+  margin-bottom: 110px;
+}
+
+.nav-catalog__item {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.nav-catalog__item--active a {
+  text-decoration: underline;
+}
+
+.home-technic {
+  margin-left: 30px;
+  list-style: disc;
+  font-size: 14px;
+}
+
+.home-technic__item {
+  margin-top: 5px;
+}
+
+.home-technic__item a {
+  text-decoration: none;
+}
+
+.home-technic__item--active a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.price__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price__wrapper p {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.catalog {
+  width: 78%;
+  margin-left: auto;
+}
+
+.goods {
+  margin-bottom: 30px;
+}
+
+.goods__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.goods__item {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  margin-bottom: 22px;
+  padding: 20px;
+  background-color: rgba(220, 220, 220 , 1);
+}
+
+.goods__item:last-child {
+  margin-left: 2%;
+  margin-right: auto;
+}
+
+.goods__item img {
+  margin-bottom: 20px;
+}
+
+.goods__item p {
+  margin-bottom: 55px;
+  font-size: 18px;
+}
+
+.goods__price {
+  margin-right: 70px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.goods__info {
+  display: flex;
+}
+
+.goods__info img {
+  cursor: pointer;
+}
+
+.pagination__list {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  margin-bottom: 90px;
+}
+
+.pagination__item {
+  margin-right: 20px;
+}
+
+.pagination__item a {
+  font-size: 14px;
+}
+
+.pagination__item--active a {
+  font-size: 18px;
+}
+
+.about-us {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us::before {
+  position: absolute;
+  content: "";
+  top: -25px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(119, 119, 119, 1);
+}
+
+.about-us__text {
+  width: 47.4%;
+  font-size: 14px;
+  line-height: 22px;
+}
